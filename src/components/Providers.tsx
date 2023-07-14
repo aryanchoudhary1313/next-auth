@@ -9,7 +9,6 @@ type Props = {
   session?: Session | null;
 };
 
-console.log(Providers);
 export default function Providers({ children, session }: Props) {
   return <SessionProvider session={session}>{children}</SessionProvider>;
 }
