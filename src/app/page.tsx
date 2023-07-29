@@ -10,7 +10,7 @@ async function getSongData() {
       "X-RapidAPI-Host": "songmeanings.p.rapidapi.com",
     },
   };
-
+  console.log(url);
   try {
     const response = await fetch(url, options);
 
